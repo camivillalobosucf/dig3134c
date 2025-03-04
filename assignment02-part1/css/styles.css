@@ -1,0 +1,138 @@
+/*RESETEO*/
+* {
+    box-sizing: border-box;
+}
+
+.missing {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    max-width: fit-content;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    padding: 3px 9px;
+    font-size: 0.85em;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    background-color: #f4e1f5;
+    color: #4a2c4f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/*FORM GENERAL CONTAINER AND REVIEW*/
+.container,
+.review-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 3px 10px rgba(74, 44, 79, 0.3);
+    max-width: 600px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    margin-top: 20px;
+}
+
+h1 {
+    position: relative;
+    top: 0;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/*FORM STYLING*/
+form fieldset {
+    border: 2px solid #c28ec7;
+    /* Medium lilac */
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 15px;
+    background-color: #f8e7fb;
+    /* Soft pastel lilac */
+    width: 100%;
+}
+
+legend {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #6b3a6f;
+    /* Deep lilac */
+    background-color: #eedaf1;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    color: #4a2c4f;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #c28ec7;
+    border-radius: 15px;
+    font-size: 1rem;
+}
+
+button {
+    background-color: #a061a5;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 10px auto;
+}
+
+button:hover {
+    background-color: #6b3a6f;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+
+/*THANK YOU STYLING*/
+p {
+    font-size: 1.2rem;
+    color: #4a2c4f;
+    text-align: left;
+}
+
+/*REVIEW PAGE STYLING*/
+.review-container h2 {
+    text-align: left;
+    margin-bottom: 10px;
+    color: #6b3a6f;
+}
+
+.review-container p {
+    margin: 5px 0;
+    font-size: 1rem;
+    color: #4a2c4f;
+}
